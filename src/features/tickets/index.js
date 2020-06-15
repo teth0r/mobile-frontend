@@ -8,9 +8,9 @@ function Tickets () {
       <Cell href="https://vk.com">
           <TicketInfo>
               <Avatar src="https://sun1-25.userapi.com/7PQaYDiIaIHCxSS6vbNe4UOtppVkBBKALimpDQ/QRcFxh0e7U0.jpg?ava=1" />
+              <TicketStatusIconMini src="/src/data/images/icons/tickets_new.svg" />
               <TicketTitle>Название тикета</TicketTitle>
               <TicketStatus>На рассмотрении</TicketStatus>
-              <TicketStatusIconMini src="/src/data/images/icons/tickets_new.svg" />
           </TicketInfo>
       </Cell>
       <Cell>

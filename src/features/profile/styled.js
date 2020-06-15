@@ -125,8 +125,8 @@ const TicketStatusIconMini = styled.img`
     width: 20px;
     height: 20px;
     position:absolute;
-    margin-left: 3em;
-    bottom: 3px;
+    bottom: 10%;
+    left: 13.5%;
 `
 
 export { Wrapper, PanelHeader, Cell, Avatar, TicketTitle, TicketStatus, GoToTicketIcon, TicketInfo, TicketStatusIcon, AgentAvatar, TicketStatusIconMini };
