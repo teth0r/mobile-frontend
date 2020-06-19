@@ -26,7 +26,7 @@ const PanelHeader = styled.h1`
 
     @font-face {
     font-family: TTCommons;
-    src: url(/src/data/fonts/tt_regular.ttf);
+    src: url(/src/data/fonts/tt_medium.ttf);
     }
 
     font-family: TTCommons;
