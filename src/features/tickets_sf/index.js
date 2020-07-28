@@ -20,49 +20,50 @@ function Tickets () {
 
             <TicketsList>
                 <TicketCard>
-                    <TicketTitle>Верификация</TicketTitle>
+                    <TicketTitle>Заголовок тикетааааааааааааааааааааааааааааааааааааааааааааааа</TicketTitle>
                     <TicketDescription>Есть ответ, завтра в 24:60</TicketDescription>
-                    <TicketUserAvatar src="https://sun9-57.userapi.com/c846019/v846019449/17bec6/EN9CDqmhTko.jpg" />
+                    <TicketUserAvatar src="https://vk.com/sticker/1-126-64" />
                 </TicketCard>
                 <br/><br/><br/><br/>
                 <TicketCard>
-                    <TicketTitle>Блокировка</TicketTitle>
+                    <TicketTitle>Просто заголовок</TicketTitle>
                     <TicketDescription>Есть ответ, завтра в 24:60</TicketDescription>
-                    <TicketUserAvatar src="https://sun9-57.userapi.com/c846019/v846019449/17bec6/EN9CDqmhTko.jpg" />
+                    <TicketUserAvatar src="https://vk.com/sticker/1-126-64" />
                 </TicketCard>
                 <br/><br/><br/><br/>
                 <TicketCard>
-                    <TicketTitle>Привет</TicketTitle>
+                    <TicketTitle>ч0</TicketTitle>
                     <TicketDescription>Есть ответ, завтра в 24:60</TicketDescription>
-                    <TicketUserAvatar src="https://sun9-57.userapi.com/c846019/v846019449/17bec6/EN9CDqmhTko.jpg" />
+                    <TicketUserAvatar src="https://vk.com/sticker/1-126-64" />
                 </TicketCard>
                 <br/><br/><br/><br/>
                 <TicketCard>
-                    <TicketTitle>Удаляю страницу</TicketTitle>
+                    <TicketTitle>ч0</TicketTitle>
                     <TicketDescription>Есть ответ, завтра в 24:60</TicketDescription>
-                    <TicketUserAvatar src="https://sun9-57.userapi.com/c846019/v846019449/17bec6/EN9CDqmhTko.jpg" />
+                    <TicketUserAvatar src="https://vk.com/sticker/1-126-64" />
                 </TicketCard>
                 <br/><br/><br/><br/>
                 <TicketCard>
-                    <TicketTitle>Группа</TicketTitle>
+                    <TicketTitle>ч0</TicketTitle>
                     <TicketDescription>Есть ответ, завтра в 24:60</TicketDescription>
-                    <TicketUserAvatar src="https://sun9-57.userapi.com/c846019/v846019449/17bec6/EN9CDqmhTko.jpg" />
+                    <TicketUserAvatar src="https://vk.com/sticker/1-126-64" />
                 </TicketCard>
                 <br/><br/><br/><br/>
                 <TicketCard>
-                    <TicketTitle>Друзья</TicketTitle>
+                    <TicketTitle>ч0</TicketTitle>
                     <TicketDescription>Есть ответ, завтра в 24:60</TicketDescription>
-                    <TicketUserAvatar src="https://sun9-57.userapi.com/c846019/v846019449/17bec6/EN9CDqmhTko.jpg" />
+                    <TicketUserAvatar src="https://vk.com/sticker/1-126-64" />
                 </TicketCard>
                 <br/><br/><br/><br/>
                 <TicketCard>
-                    <TicketTitle>Карточка музыканта</TicketTitle>
+                    <TicketTitle>ч0</TicketTitle>
                     <TicketDescription>Есть ответ, завтра в 24:60</TicketDescription>
-                    <TicketUserAvatar src="https://sun9-57.userapi.com/c846019/v846019449/17bec6/EN9CDqmhTko.jpg" />
+                    <TicketUserAvatar src="https://vk.com/sticker/1-126-64" />
                 </TicketCard>
 
             </TicketsList>
     </Wrapper>
   )
 }
-export { Tickets };
+
+export { Tickets }

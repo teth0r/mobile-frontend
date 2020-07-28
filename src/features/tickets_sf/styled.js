@@ -103,12 +103,12 @@ const TicketsMenuPunct = styled.a`
 const TicketsList = styled.div`
   position: absolute;
   width: 92%;
-  height: 450px;
+  height: 1300%;
   left: 4%;
   top: 150px;
   overflow: scroll;
-::-webkit-scrollbar { width: 0px; height: 0px;}
-    flex-direction: column;
+  ::-webkit-scrollbar { width: 0px; height: 0px;}
+  flex-direction: column;
 `
 
 const TicketCard = styled.div`
@@ -148,8 +148,6 @@ const TicketUserAvatar = styled.img`
   position: absolute;
   right: 7%;
   top: 15px;
-
-  border-radius: 50px;
 `
 
 // const Separator = styled.div`

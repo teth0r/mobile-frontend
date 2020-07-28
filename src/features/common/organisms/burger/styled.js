@@ -7,11 +7,10 @@ const Wrapper = styled.header`
     color: rgba(194,222,255,.8);
     padding: 10px 20px;
     position: fixed;
-    bottom: 0;
+    top: 0;
     width: calc(100% - 40px);
-    z-index: 999;
+    z-index: 9999;
 `
-
 const MenuLink = styled(Link)`
   cursor: pointer;
   display: inline-block;
@@ -39,4 +38,11 @@ const MenuLink = styled(Link)`
   }
 `
 
-export { Wrapper, MenuLink };
+const Icon = styled.img`
+    width: 28px;
+    height: 28px;
+    fill: #fff;
+    border-radius: 50px;
+`
+
+export { Wrapper, MenuLink, Icon };

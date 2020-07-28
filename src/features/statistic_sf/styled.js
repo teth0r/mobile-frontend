@@ -1,3 +1,5 @@
+// версия для маленьких экранов (iPhone 4, iPhone 5/SE etc.)
+
 import styled, { css } from 'styled-components'
 import { Link } from 'react-router-dom'
 import { ifProp } from 'styled-tools'
@@ -73,91 +75,116 @@ const PanelTitle = styled.div`
   color: #FFFFFF;
 `
 
-const TicketsMenu = styled.div`
+const StatisticCard = styled.div`
   position: absolute;
   width: 92%;
-  height: 50px;
+  height: 102px;
   left: 4%;
   top: 77px;
   margin: auto;
   background: #FFFFFF;
-  line-height: 25px;
 
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.06), 0px 0px 2px rgba(0, 0, 0, 0.03);
   border-radius: 5px;
 `
 
-const TicketsMenuPuncts = styled.div`
+const StatisticTitle = styled.div`
+  margin-top: 9px;
+  left: 45%;
+
+  font-family: SFRegular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+
+  color: #6B9BD2;
+`
+
+const StatisticCounters = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 14px;
 `
 
-const TicketsMenuPunct = styled.a`
-  color: #818C99;
-  font-size: 12px;
-  text-decoration: none;
+const StatisticTrueAnswers = styled.div`
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
 `
 
-const TicketsList = styled.div`
+const StatisticAllAnswersCounter = styled.div`
+  color: #000;
+  font-size: 19px;
+`
+
+const StatisticTrueAnswersCounter = styled.div`
+  color: #4BB34B;
+  font-size: 19px;
+`
+
+const StatisticBadAnswersCounter = styled.div`
+  color: #E64646;
+  font-size: 19px;
+`
+
+const StatisticUnderCounter = styled.div`
+  color: #818C99;
+  font-size: 12px;
+`
+
+const RatingCardsList = styled.div`
   position: absolute;
   width: 92%;
-  height: 450px;
+  height: 1000%;
   left: 4%;
-  top: 150px;
+  top: 200px;
   overflow: scroll;
 ::-webkit-scrollbar { width: 0px; height: 0px;}
     flex-direction: column;
 `
 
-const TicketCard = styled.div`
+const RatingCard = styled.div`
   position: absolute;
   width: 100%;
-  height: 70px;
+  height: 54px;
   margin: auto;
   background: #FFFFFF;
-  box-shadow: 0px 1px 2px rgba(205, 214, 230, 0.25);
+
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.06), 0px 0px 2px rgba(0, 0, 0, 0.03);
   border-radius: 5px;
 `
 
-const TicketTitle = styled.div`
-  margin-left: 14px;
-  margin-top: 10px;
-  max-width: 65%;
-  white-space: nowrap;
-  overflow: hidden;
-  padding: 5px;
-  text-overflow: ellipsis;
-
-  color: #000000;
-  font-family: SFRegular;
+const RatingUserInfo = styled.div`
+  display: flex;
+  margin-left: 15px;
 `
 
-const TicketDescription = styled.div`
-  margin-left: 20px;
-  margin-top: -2px;
-
-  color: #818C99;
-`
-
-const TicketUserAvatar = styled.img`
-  width: 40px;
-  height: 40px;
-
-  position: absolute;
-  right: 7%;
-  top: 15px;
-
+const RatingAvatar = styled.img`
+  width: 35px;
+  height: 35px;
+  margin-top: 8px;
   border-radius: 50px;
 `
 
-// const Separator = styled.div`
-//   width: 150px;
-//   height: 0px;
-//   margin-top: 68.57px;
-//
-//   border: 1px solid rgba(255, 255, 255, 0.3);
-// `
+const RatingName = styled.div`
+  margin-left: 9px;
+  margin-top: 10px;
 
-export { Wrapper, MenuLink, PanelHeader, PanelTitle, TicketsMenu, TicketsMenuPuncts, TicketsMenuPunct, TicketsList, TicketCard, TicketTitle, TicketDescription, TicketUserAvatar };
+  font-family: SFMedium;
+  color: #6B9BD2;
+  font-size: 12px;
+`
+
+const RatingPoints = styled.div`
+    position: absolute;
+    left: 60px;
+    top: 25px;
+
+    text-align: center;
+    font-size: 12px;
+    color: rgb(144, 148, 153);
+`
+
+export { Wrapper, MenuLink, PanelHeader, PanelTitle, StatisticCard, StatisticTitle, StatisticCounters, StatisticUnderCounter, StatisticTrueAnswers, StatisticAllAnswersCounter, StatisticTrueAnswersCounter, StatisticBadAnswersCounter, RatingCardsList, RatingCard, RatingUserInfo, RatingAvatar, RatingName, RatingPoints };
